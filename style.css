@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2019/12/21/20/53/harry-potter-4711342_1280.jpg);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#pergunta {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#opcoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 20px;
+}
+
+.correto {
+    background-color: #94792e;
+}
+
+.incorreto {
+    background-color: #914545;
+}
+
+h1{
+background-color: #998c3f;
+}
